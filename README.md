@@ -9,7 +9,7 @@ This repository is a monorepo manage with [yarn workspaces](https://classic.yarn
 
 ## How to use
 
-Clone the repository 
+Clone the repository.
 
 ```
 git clone git@github.com:pancakeswap/pancake-toolkit.git
