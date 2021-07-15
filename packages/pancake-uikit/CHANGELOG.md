@@ -4,10 +4,11 @@ All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 # 0.41.0 (2021-07-15)
+=======
+## [0.40.3](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.40.2...@pancakeswap/uikit@0.40.3) (2021-07-15)
 
 
 ### Bug Fixes
-
 * :fire: UI updates: button click animation, menu closing fix, men… ([#63](https://github.com/polypredict/pancake-toolkit/tree/master/packages/pancake-uikit/issues/63)) ([3d9ba48](https://github.com/polypredict/pancake-toolkit/tree/master/packages/pancake-uikit/commit/3d9ba489f642939cfdf54d6939c0fdd7309ed86b))
 * (Menu) Footer is not visible completely when navigation bar is visible ([#138](https://github.com/polypredict/pancake-toolkit/tree/master/packages/pancake-uikit/issues/138)) ([fa6fc66](https://github.com/polypredict/pancake-toolkit/tree/master/packages/pancake-uikit/commit/fa6fc669091398de8c3cee156e3724006023a4a2))
 * (userblock) Check Props properties seperately to not cause rerender each time ([#151](https://github.com/polypredict/pancake-toolkit/tree/master/packages/pancake-uikit/issues/151)) ([e6f90d7](https://github.com/polypredict/pancake-toolkit/tree/master/packages/pancake-uikit/commit/e6f90d7b41a1b3a1d373560dd29e06f10c324639))
@@ -79,6 +80,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * Add VisibilityOn and VisibilityOff icons ([#81](https://github.com/polypredict/pancake-toolkit/tree/master/packages/pancake-uikit/issues/81)) ([6635681](https://github.com/polypredict/pancake-toolkit/tree/master/packages/pancake-uikit/commit/6635681402de7c43fa429808a46b733fb415ac5f))
 * Refresh icon ([#27](https://github.com/polypredict/pancake-toolkit/tree/master/packages/pancake-uikit/issues/27)) ([60d9b34](https://github.com/polypredict/pancake-toolkit/tree/master/packages/pancake-uikit/commit/60d9b34fbbd871d678c1836ff7ab924a4b301193))
 * Stepper ([#42](https://github.com/polypredict/pancake-toolkit/tree/master/packages/pancake-uikit/issues/42)) ([8b1b72e](https://github.com/polypredict/pancake-toolkit/tree/master/packages/pancake-uikit/commit/8b1b72e00bcf012df258becd1048770af2498221))
+* Increase ifo stepper connector height in mobile ([#195](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/issues/195)) ([5408d1c](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/5408d1ca6099154d5385b0aaecf5015fdf8b4d20))
 
 
 
