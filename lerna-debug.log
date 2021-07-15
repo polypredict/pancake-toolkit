@@ -1,0 +1,5 @@
+94 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin master
+94 error remote: Invalid username or password.
+94 error fatal: Authentication failed for 'https://github.com/polypredict/pancake-toolkit.git/'
+94 error     at makeError (/home/jeff/Documents/web/pancake-toolkit/node_modules/execa/lib/error.js:59:11)
+94 error     at handlePromise (/home/jeff/Documents/web/pancake-toolkit/node_modules/execa/index.js:114:26)

@@ -52,6 +52,8 @@
     "styled-system": "^5.1.5"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "cache": "cache/.npm",
+    "registry": "https://registry.npmjs.org/"
   }
 }
