@@ -65,6 +65,7 @@ const MenuEntry = styled.div<Props>`
 MenuEntry.defaultProps = {
   secondary: false,
   isActive: false,
+  role: "button",
 };
 
 const LinkStatus = styled(Text)<{ color: keyof Colors }>`

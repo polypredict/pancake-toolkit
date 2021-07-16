@@ -122,12 +122,10 @@ const Menu: React.FC<NavProps> = ({
           isDark={isDark}
           href={homeLink?.href ?? "/"}
         />
-        {!!login && !!logout && (
-          <Flex>
-            <UserBlock account={account} login={login} logout={logout} />
-            {profile && <Avatar profile={profile} />}
-          </Flex>
-        )}
+        <Flex>
+          <UserBlock account={account} login={login} logout={logout} />
+          {profile && <Avatar profile={profile} />}
+        </Flex>
       </StyledNav>
       <BodyWrapper>
         <Panel

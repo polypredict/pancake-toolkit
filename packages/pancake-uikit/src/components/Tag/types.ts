@@ -9,7 +9,6 @@ export const variants = {
   TEXTSUBTLE: "textSubtle",
   BINANCE: "binance",
   FAILURE: "failure",
-  WARNING: "warning",
 } as const;
 
 export const scales = {

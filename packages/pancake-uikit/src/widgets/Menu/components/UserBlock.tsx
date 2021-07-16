@@ -38,10 +38,4 @@ const UserBlock: React.FC<Props> = ({ account, login, logout }) => {
   );
 };
 
-export default React.memo(
-  UserBlock,
-  (prevProps, nextProps) =>
-    prevProps.account === nextProps.account &&
-    prevProps.login === nextProps.login &&
-    prevProps.logout === nextProps.logout
-);
+export default React.memo(UserBlock, (prevProps, nextProps) => prevProps.account === nextProps.account);
