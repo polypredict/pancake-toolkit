@@ -1,5 +1,5 @@
 {
-  "name": "@polypredict/token-lists",
+  "name": "@pancakeswap/token-lists",
   "version": "2.18.0",
   "main": "dist/index.js",
   "type": "module",

@@ -8,6 +8,7 @@ export const baseColors = {
   secondary: "#7645D9",
   success: "#31D0AA",
   warning: "#FFB237",
+  borderColor: "#ff0000"
 };
 
 export const additionalColors = {

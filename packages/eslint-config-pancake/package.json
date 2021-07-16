@@ -1,5 +1,5 @@
 {
-  "name": "@polypredict/eslint-config-pancake",
+  "name": "@pancakeswap/eslint-config-pancake",
   "version": "1.3.0",
   "description": "Eslint config for PolyPredict",
   "main": "lib/index.js",
