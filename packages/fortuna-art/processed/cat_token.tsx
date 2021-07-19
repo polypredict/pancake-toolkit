@@ -1,20 +1,23 @@
-import React from "react";
-import Svg from "../Svg";
-import { SvgProps } from "../types";
+import * as React from "react";
 
-const Icon: React.FC<SvgProps> = (props) => {
-  return (
-    <Svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" height={32} width={32}  {...props}>
- <defs>
+export const cat_token = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
+    height={32}
+    width={32}
+    {...props}
+  >
+    <defs>
       <style>
         {
           ".prefix__cls-2{fill:#f2e1e1}.prefix__cls-3{fill:#3d3d3d}.prefix__cls-5{fill:#bde0fe}.prefix__cls-6{fill:#fff}"
         }
       </style>
     </defs>
-    <g id="prefix__Layer_2" dataName="Layer 2">
-      <g id="prefix__Layer_1-2" dataName="Layer 1">
-        <circle cx={32} cy={32} r={32} fill="#f4cdd7" />
+    <g id="prefix__Layer_2" data-name="Layer 2">
+      <g id="prefix__Layer_1-2" data-name="Layer 1">
+        <circle cx={32} cy={32} r={32} fill="#00ffff" />
         <path
           className="prefix__cls-2"
           d="M43.08 54.89c-.43-1.1-1.31-3.45-1.46-3.86-.2.5-1.16.92-2.86 1.24a37.38 37.38 0 01-6.67.53 37.38 37.38 0 01-6.67-.53c-1.71-.32-2.66-.74-2.86-1.24-.15.41-1 2.76-1.46 3.86a.52.52 0 00.13.6c1.64 1.47 8.34 1.68 10.86 1.68S41.3 57 43 55.49a.54.54 0 00.08-.6z"
@@ -37,7 +40,7 @@ const Icon: React.FC<SvgProps> = (props) => {
         />
         <path
           d="M47.62 21.31c.19-.87 1.1-5.27.58-7.19a2.72 2.72 0 00-3-2.1c-1.78.24-3.09 1-6.05 2.53a19 19 0 00-14.26.06c-3-1.61-4.36-2.34-6.17-2.59a2.71 2.71 0 00-3 2.1c-.58 2.13.61 7.34.61 7.34a18.11 18.11 0 00-3.13 10.62 18.9 18.9 0 1034.42-10.77z"
-          fill="#e5f3ff"
+          fill="currentColor"
         />
         <path
           className="prefix__cls-3"
@@ -83,8 +86,5 @@ const Icon: React.FC<SvgProps> = (props) => {
         />
       </g>
     </g>
-    </Svg>
-  );
-};
-
-export default Icon;
+  </svg>
+);
