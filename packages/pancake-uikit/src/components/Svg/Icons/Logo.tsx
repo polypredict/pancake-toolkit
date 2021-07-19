@@ -12,8 +12,8 @@ const Icon: React.FC<SvgProps> = (props) => {
         }
       </style>
     </defs>
-    <g id="prefix__Layer_2" dataName="Layer 2">
-      <g id="prefix__Layer_1-2" dataName="Layer 1">
+    <g id="prefix__Layer_2">
+      <g id="prefix__Layer_1-2">
         <circle cx={32} cy={32} r={32} fill="#f4cdd7" />
         <path
           className="prefix__cls-2"
