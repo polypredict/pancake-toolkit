@@ -125,7 +125,7 @@ export const links = [
       },
       {
         label: "Github",
-        href: "https://github.com/fortunapredict",
+        href: "https://github.com/fortunaquest",
       },
       {
         label: "Docs",
@@ -133,7 +133,7 @@ export const links = [
       },
       {
         label: "Blog",
-        href: "https://medium.com/@fortunapredict",
+        href: "https://fortunaqpredict.medium.com",
       },
     ],
   },
@@ -146,12 +146,14 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/fortunapredict",
+        href: "https://t.me/pancakeswap",
       },
+    ]
+  },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/fortunapredict",
+    href: "https://twitter.com/pancakeswap",
   },
 ];
 
