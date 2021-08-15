@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Text from "../Text/Text";
 import bunnyHeadMain from "./svg/kittyhead-main.svg";
 import bunnyHeadMax from "./svg/kittyhead-max.svg";
-import bunnyButt from "./svg/kittybutt.svg";
+import bunnyButt from "./svg/kittybutt4.svg";
 
 interface SliderLabelProps {
   progress: string;
